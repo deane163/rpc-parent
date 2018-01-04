@@ -8,17 +8,41 @@
 		<artifactId>rpc-parent</artifactId>
 		<version>1.0.0</version>
 	</parent>
+	
 	<artifactId>rpc-registry-zookeeper</artifactId>
 	<name>rpc-registry-zookeeper</name>
 	<url>http://maven.apache.org</url>
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<dependencies>
+		<!-- SLF4J -->
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<scope>test</scope>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+		</dependency>
+		<!-- ZooKeeper -->
+		<dependency>
+			<groupId>org.apache.zookeeper</groupId>
+			<artifactId>zookeeper</artifactId>
+		</dependency>
+		<!-- ZkClient -->
+		<dependency>
+			<groupId>com.101tec</groupId>
+			<artifactId>zkclient</artifactId>
+		</dependency>
+		<!-- RPC Common -->
+		<dependency>
+			<groupId>com.xiaoshu</groupId>
+			<artifactId>rpc-common</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<!-- RPC Registry -->
+		<dependency>
+			<groupId>com.xiaoshu</groupId>
+			<artifactId>rpc-registry</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
 </project>
