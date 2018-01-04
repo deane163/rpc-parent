@@ -11,14 +11,33 @@
 	<artifactId>rpc-server</artifactId>
 	<name>rpc-server</name>
 	<url>http://maven.apache.org</url>
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	
 	<dependencies>
+		<!-- Spring -->
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<scope>test</scope>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+		</dependency>
+		<!-- CGLib -->
+		<dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib</artifactId>
+		</dependency>
+		<!-- RPC Common -->
+		<dependency>
+			<groupId>com.xiaoshu</groupId>
+			<artifactId>rpc-common</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<!-- RPC Registry with ZooKeeper -->
+		<dependency>
+			<groupId>com.xiaoshu</groupId>
+			<artifactId>rpc-registry-zookeeper</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
 </project>
