@@ -3,7 +3,6 @@ package com.xiaoshu;
 /**
 
  *
- *
  * @Description : 将服务信息 注册到Zookeeper服务器上面
  * ---------------------------------
  * @Author : deane.administrator
