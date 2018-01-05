@@ -13,7 +13,6 @@ package com.xiaoshu;
 * 
 * Copyright (C)2013-2018 小树盛凯科技 All rights reserved.
 */
-public class CommonPackage 
-{
+public class CommonPackage {
   
 }
