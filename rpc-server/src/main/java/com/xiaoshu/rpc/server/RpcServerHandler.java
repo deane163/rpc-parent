@@ -3,18 +3,21 @@
  */
 package com.xiaoshu.rpc.server;
 
-import com.xiaoshu.rpc.common.bean.RpcRequest;
-import com.xiaoshu.rpc.common.bean.RpcResponse;
-import com.xiaoshu.rpc.common.util.StringUtil;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
+
+import java.util.Map;
+
 import net.sf.cglib.reflect.FastClass;
 import net.sf.cglib.reflect.FastMethod;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.Map;
+import com.xiaoshu.rpc.common.bean.RpcRequest;
+import com.xiaoshu.rpc.common.bean.RpcResponse;
+import com.xiaoshu.rpc.common.util.StringUtil;
 
 /**
  * 
@@ -86,14 +89,16 @@ public class RpcServerHandler extends SimpleChannelInboundHandler<RpcRequest> {
         String methodName = request.getMethodName();
         Class<?>[] parameterTypes = request.getParameterTypes();
         Object[] parameters = request.getParameters();
-        // 执行反射调用
+        // 执行JDK反射调用
 //        Method method = serviceClass.getMethod(methodName, parameterTypes);
 //        method.setAccessible(true);
-//        return method.invoke(serviceBean, parameters);
+//        Object object = method.invoke(serviceBean, parameters);
+//        return object;
         // 使用 CGLib 执行反射调用
         FastClass serviceFastClass = FastClass.create(serviceClass);
         FastMethod serviceFastMethod = serviceFastClass.getMethod(methodName, parameterTypes);
-        return serviceFastMethod.invoke(serviceBean, parameters);
+        Object object = serviceFastMethod.invoke(serviceBean, parameters);
+        return object;
     }
 
     @Override
