@@ -25,7 +25,7 @@ package com.xiaoshu.rpc.registry.zookeeper;
  * 　　　┗┻┛　┗┻┛
  *
  *
- * @Description : 常量配置
+ * @Description : 常量配置，需要注册到的Zookeeper文件夹地址
  * ---------------------------------
  * @Author : deane.administrator
  * @Date : Create in 2018年1月6日 下午4:29:18
