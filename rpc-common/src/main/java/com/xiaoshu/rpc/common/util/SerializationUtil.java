@@ -35,7 +35,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * 　　　┗┻┛　┗┻┛
  *
  *
- * @Description : 
+ * @Description : 序列化工具，实现序列化操作
  * ---------------------------------
  * @Author : deane.administrator
  * @Date : Create in 2018年1月6日 下午4:39:00

@@ -26,7 +26,7 @@ import org.apache.commons.lang3.StringUtils;
  * 　　　┗┻┛　┗┻┛
  *
  *
- * @Description : 
+ * @Description : StringUtils 工具类，实现字符串操作
  * ---------------------------------
  * @Author : deane.administrator
  * @Date : Create in 2018年1月6日 下午4:39:57
