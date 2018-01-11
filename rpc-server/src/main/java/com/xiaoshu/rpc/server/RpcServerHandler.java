@@ -41,7 +41,7 @@ import com.xiaoshu.rpc.common.util.StringUtil;
  * 　　　┗┻┛　┗┻┛
  *
  *
- * @Description : RPC 服务端处理器（用于处理 RPC 请求）
+ * @Description : RPC 服务端处理器 Handler处理器（用于处理 RPC 请求，方法的动态代理实现）
  * ---------------------------------
  * @Author : deane.administrator
  * @Date : Create in 2018年1月6日 下午4:55:46
