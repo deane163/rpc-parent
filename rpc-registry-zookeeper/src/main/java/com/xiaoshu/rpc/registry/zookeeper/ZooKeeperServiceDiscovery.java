@@ -36,7 +36,7 @@ import com.xiaoshu.rpc.registry.ServiceDiscovery;
  * 　　　┗┻┛　┗┻┛
  *
  *
- * @Description : 基于 ZooKeeper 的服务发现接口实现
+ * @Description : 基于 ZooKeeper 的服务发现接口实现 / 用Zookeeper作为服务的发现；
  * ---------------------------------
  * @Author : deane.administrator
  * @Date : Create in 2018年1月6日 下午4:34:28

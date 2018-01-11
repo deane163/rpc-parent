@@ -31,7 +31,7 @@ import com.xiaoshu.rpc.registry.ServiceRegistry;
  * 　　　┗┻┛　┗┻┛
  *
  *
- * @Description : 基于 ZooKeeper 的服务发现接口注册
+ * @Description : 基于 ZooKeeper 的服务发现接口注册 / 用Zookeeper作为服务的注册中心，注册服务
  * ---------------------------------
  * @Author : deane.administrator
  * @Date : Create in 2018年1月6日 下午4:31:51
