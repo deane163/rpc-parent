@@ -93,6 +93,9 @@ public class RpcServer implements ApplicationContextAware, InitializingBean {
         }
     }
     
+    /**
+     * Bean 初始化过程中，启动 Netty server, 提供服务的调用
+     */
     public void afterPropertiesSet() throws Exception {
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
