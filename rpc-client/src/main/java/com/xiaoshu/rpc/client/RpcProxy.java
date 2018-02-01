@@ -37,7 +37,7 @@ import java.util.UUID;
  * 　　　┗┻┛　┗┻┛
  *
  *
- * @Description : 
+ * @Description : 客户端client代理类
  * ---------------------------------
  * @Author : deane.administrator
  * @Date : Create in 2018年1月6日 下午5:05:42

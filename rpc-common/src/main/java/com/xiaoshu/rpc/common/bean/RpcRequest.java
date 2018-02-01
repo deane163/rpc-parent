@@ -27,7 +27,7 @@ import java.io.Serializable;
  * 　　　┗┻┛　┗┻┛
  *
  *
- * @Description : 封装 RPC 请求
+ * @Description : 封装 RPC 请求request
  * ---------------------------------
  * @Author : deane.administrator
  * @Date : Create in 2018年1月6日 下午4:43:10

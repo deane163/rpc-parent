@@ -29,7 +29,7 @@ import io.netty.handler.codec.MessageToByteEncoder;
  * 　　　┗┻┛　┗┻┛
  *
  *
- * @Description : RPC 编码器
+ * @Description : RPC 编码器   序列化操作
  * ---------------------------------
  * @Author : deane.administrator
  * @Date : Create in 2018年1月6日 下午4:46:35
