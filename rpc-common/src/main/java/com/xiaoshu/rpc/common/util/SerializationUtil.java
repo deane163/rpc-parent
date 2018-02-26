@@ -43,7 +43,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * Copyright (C)2013-2018 小树盛凯科技 All rights reserved.
  */
 public class SerializationUtil {
-    private static Map<Class<?>, Schema<?>> cachedSchema = new ConcurrentHashMap<>();
+    private static Map<Class<?>, Schema<?>> cachedSchema = new ConcurrentHashMap<Class<?>, Schema<?>>();
 
     private static Objenesis objenesis = new ObjenesisStd(true);
 
