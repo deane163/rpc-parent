@@ -1,11 +1,13 @@
 ## RPC简单实现
 
-- 1、集成 Zookeeper 注册中心， 将Server端接口服务注册到 Zookeeper上面
+- 1、集成 Zookeeper 注册中心， 将Server端接口服务注册到 Zookeeper上面， Register
 
 - 2、集成 Netty 网络通信框架， 提高网络传输性能
 
 - 3、使用JDK 动态代理， 依赖于接口
 
-- 4、测试使用了 CGlib 动态代理
+- 4、测试使用了 CGlib 动态代理，实现服务端的服务调用
 
 - 5、实现传输的序列号和反序列化
+
+- 6、基本的实现了 Dubbo的功能： 服务注册，服务发现，服务调用，服务版本声明
