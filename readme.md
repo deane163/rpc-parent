@@ -1,4 +1,4 @@
-## RPC简单实现
+## RPC简单实现，类似Dubbo协议的功能
 
 - 1、集成 Zookeeper 注册中心， 将Server端接口服务注册到 Zookeeper上面， Register
 
