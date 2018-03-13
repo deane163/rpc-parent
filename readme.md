@@ -1,6 +1,6 @@
 ## RPC简单实现，类似Dubbo协议的功能
 
-- 1、集成 Zookeeper 注册中心， 将Server端接口服务注册到 Zookeeper上面， Register
+- 1、集成 Zookeeper 注册中心， 将Server端接口服务注册到 Zookeeper上面，包含有服务名称和服务的版本号， Register
 
 - 2、集成 Netty 网络通信框架， 提高网络传输性能
 
