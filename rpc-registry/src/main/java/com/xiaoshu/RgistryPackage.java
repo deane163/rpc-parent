@@ -22,7 +22,8 @@ package com.xiaoshu;
  * 　　　┗┻┛　┗┻┛
  *
  * @Description : 声明 服务注册和服务发现的接口声明
- * 实现类可以是多种，可以是Zookeeper、Redis、或其它存储服务
+ * 实现类可以是多种，可以是Zookeeper、Redis、Mysql 或其它存储服务
+ * 但是通用的方式是使用 Zookeeper进行服务的注册
  * ---------------------------------
  * @Author : deane.administrator
  * @Date : Create in 2018年1月4日下午5:13:05
