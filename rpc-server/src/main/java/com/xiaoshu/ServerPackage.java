@@ -22,7 +22,7 @@ package com.xiaoshu;
  * 　　　┗┻┛　┗┻┛
  *
  *
- * @Description : 服务端的实现
+ * @Description : 服务端的实现，通过Netty的网络服务框架实现
  * ---------------------------------
  * @Author : deane.administrator
  * @Date : Create in 2018年1月4日下午5:21:59
